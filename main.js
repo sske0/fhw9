@@ -3,7 +3,7 @@
 //     return result;
 // };
 
-// let str = "hello";
+// const str = "hello";
 // console.log(str.customCapitalize());
 
 // String.prototype.customReverse = function() {
@@ -14,7 +14,7 @@
 //     return result;
 // }
 
-// let str = "bruh";
+// const str = "bruh";
 // console.log(str.customReverse());
 
 String.prototype.customVowelCapitalize = function () {
@@ -29,5 +29,5 @@ String.prototype.customVowelCapitalize = function () {
   return result;
 };
 
-let str = "words with vowels: some random words. P.S. sorry for doing that shit while shaking hands, it's not some silly joke, ive just felt kinda nervous and it happened on its own";
+const str = "words with vowels: some random words. P.S. sorry for doing that shit while shaking hands, it's not some silly joke, ive just felt kinda nervous and it happened on its own";
 console.log(str.customVowelCapitalize());
